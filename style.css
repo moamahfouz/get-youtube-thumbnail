@@ -1,0 +1,79 @@
+  .image{
+            max-width: 100%;
+        }
+	    #word {
+	        margin: 5em;
+	    }
+
+	    #word b {
+	        font-size: 18px;
+	        color: #079da7;
+	    }
+
+	    @media screen and (max-width:414px) {
+
+	        #word {
+	            margin: 0;
+	            margin-top: 3em;
+	        }
+
+	    }
+
+	    .free,
+	    .price {
+	        position: absolute;
+	        top: 0px;
+	        left: 0;
+	        text-align: left;
+	        background: #fbd62a;
+	        color: #000;
+	        padding: 3px 13px;
+	        border-bottom-right-radius: 15px;
+	    }
+
+	    .price {
+	        background: #6c63ff;
+	        color: #fff;
+	    }
+
+
+	    .card-body {
+	        text-align: right;
+	    }
+
+	    .post-container {
+	        margin: 0 !important;
+	    }
+
+	    #sidebar-wrapper,
+	    #comments,
+	    .post-title,
+	    .post-meta,
+	    #fb-comments-page {
+	        display: none;
+	    }
+
+	    .card-container {
+	        padding-bottom: 21px;
+	        background-color: #231e39;
+	    }
+
+	    .label_with_thumbs {
+	        min-height: 70px;
+	        margin: 0px 10px 2px 0px;
+	        padding: 0;
+	    }
+
+	    ul.label_with_thumbs li {
+	        padding: 8px 0;
+	        min-height: 65px;
+	        margin-bottom: 10px;
+	    }
+
+	    .label_with_thumbs a {}
+
+	    .label_with_thumbs strong {}
+body{
+	background: #eee;
+	
+}
